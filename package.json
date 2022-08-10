@@ -1,0 +1,79 @@
+{
+  "name": "react-native-tips",
+  "version": "0.0.12",
+  "description": "Helper to show tips when you launch your react-native for the first time",
+  "main": "Tips/index.js",
+  "scripts": {
+    "test": "eslint ./Tips && jest",
+    "test:dev": "yarn test --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/frichti/react-native-tips/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/frichti/react-native-tips"
+  },
+  "keywords": [
+    "reactnative",
+    "react-native",
+    "tips",
+    "tooltip"
+  ],
+  "jest": {
+    "collectCoverage": false,
+    "coverageReporters": [
+      "json",
+      "html"
+    ],
+    "moduleFileExtensions": [
+      "js"
+    ],
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleDirectories": [
+      "node_modules"
+    ],
+    "testMatch": [
+      "**/*.test.js"
+    ],
+    "transformIgnorePatterns": [
+      "node_modules/jest-runtime/build/script_transformer.js"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.46",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-jest": "^22.2.0",
+    "babel-preset-react-native": "^4.0.0",
+    "enzyme": "^3.3.0",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-jsx-a11y": "^6.0.3",
+    "eslint-plugin-react": "^7.6.1",
+    "eslint-plugin-react-native": "^3.2.1",
+    "jest": "^22.4.3",
+    "jest-react-native": "^18.0.0",
+    "react": "^16.2.0",
+    "react-addons-test-utils": "^15.6.2",
+    "react-dom": "^16.2.0",
+    "react-native": "^0.51.0",
+    "react-native-mock": "github:RealOrangeOne/react-native-mock#master",
+    "react-test-renderer": "^16.3.2"
+  },
+  "peerDependencies": {
+    "react": "^16.2.0",
+    "react-native": "^0.53.0"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0",
+    "react-mixin": "^4.0.0",
+    "react-timer-mixin": "^0.13.3",
+    "styled-components": "^3.1.6"
+  }
+}
